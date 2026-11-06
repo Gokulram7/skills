@@ -182,8 +182,8 @@ environment, they must explicitly provide project and location scoping.
 
     *   **Compute Engine (VMs, Networks)**:
 
-        *   `gcloud compute regions list --project=<PROJECT_ID>`
-        *   `gcloud compute zones list --project=<PROJECT_ID>`
+        *   `gcloud compute regions list --limit=10 --project=<PROJECT_ID>`
+        *   `gcloud compute zones list --limit=10 --project=<PROJECT_ID>`
 
     *   **Other Services (Standard API Style)**: Many GCP services utilize a
         unified `locations list` command:
